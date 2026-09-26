@@ -4,4 +4,8 @@ git add .
 git commit -m "message is this"
 git log
 git checkout  5b57d6a260d38a52937b978013e669aecc10c581 
-git checkout mgit ain
+git checkout main
+git branch 
+git bramch branch-git branchname
+git checkout dev
+
