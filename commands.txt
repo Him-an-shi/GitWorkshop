@@ -9,4 +9,7 @@ git branch
 git bramch branch-git branchname
 git checkout dev
 git push
+git merge branchjiskokrna h
+git remote add https://github.com/Him-an-shi/GitWorkshop.git
+git remote -v
 /
