@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter</title>
+  <style>
+    body{text-align:center;font-family:Arial;margin-top:100px}
+    button{padding:10px 20px;margin:5px}
+  </style>
+</head>
+<body>
+  <h1 id="count">0</h1>
+  <button onclick="change(1)">+</button>
+  <button onclick="change(-1)">-</button>
+  <script>
+    let n=0;
+    function change(x){n+=x;document.getElementById("count").textContent=n}
+  </script>
+</body>
+</html>
